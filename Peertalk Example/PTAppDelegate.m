@@ -4,7 +4,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 @interface PTAppDelegate () {
-  // If the remote connection is over USB transport...
+  // If the remote connection is over USB transport...   jjjj
   NSNumber *connectingToDeviceID_;
   NSNumber *connectedDeviceID_;
   NSDictionary *connectedDeviceProperties_;
