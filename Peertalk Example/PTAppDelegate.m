@@ -4,7 +4,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 @interface PTAppDelegate () {
-  // If the remote connection is over USB transport...   jjjj
+  // If the remote connection is over USB transport...
   NSNumber *connectingToDeviceID_;
   NSNumber *connectedDeviceID_;
   NSDictionary *connectedDeviceProperties_;
@@ -236,8 +236,8 @@
           NSLog(@"right mouse up!");
           rightButtonDown = YES;
       } else if ([[message substringToIndex:1] isEqualToString:@"X"]) {
-          cursorPosition = CGPointMake((float)MousePoint.x + [[message stringByReplacingOccurrencesOfString:@"X"withString:@""] floatValue]/5, cursorPosition.y);
           
+          cursorPosition = CGPointMake((float)MousePoint.x + [[message stringByReplacingOccurrencesOfString:@"X"withString:@""] floatValue]/5, cursorPosition.y);
       } else if ([[message substringToIndex:1] isEqualToString:@"Y"]) {
           cursorPosition = CGPointMake(cursorPosition.x,(float)MousePoint.y + [[message stringByReplacingOccurrencesOfString:@"Y"withString:@""] floatValue]/5);
       }

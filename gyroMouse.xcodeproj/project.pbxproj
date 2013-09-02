@@ -23,6 +23,7 @@
 		6A64AAF01526050D0065BF86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A64AAEF1526050D0065BF86 /* main.m */; };
 		6A64AAF41526050D0065BF86 /* PTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A64AAF31526050D0065BF86 /* PTAppDelegate.m */; };
 		6A64AAF71526050D0065BF86 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A64AAF51526050D0065BF86 /* MainStoryboard_iPhone.storyboard */; };
+		6A64AAFA1526050D0065BF86 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A64AAF81526050D0065BF86 /* MainStoryboard_iPad.storyboard */; };
 		6A64AAFD1526050D0065BF86 /* PTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A64AAFC1526050D0065BF86 /* PTViewController.m */; };
 		6A64AB0215260B4D0065BF86 /* libgyroMouse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A88FA30150D613800FC3647 /* libgyroMouse.a */; };
 		6A64AB0815260E5C0065BF86 /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFD2D5151D36220081ACF5 /* PTChannel.m */; };
@@ -43,7 +44,6 @@
 		9625F13517D45F150049B459 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9625F13417D45F150049B459 /* UIKit.framework */; };
 		966F23281786FE3F00EE746B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966F23271786FE3F00EE746B /* CoreMotion.framework */; };
 		966F232A17870ABE00EE746B /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966F232917870ABE00EE746B /* ApplicationServices.framework */; };
-		9671718117D47E5600E2186B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9671718017D47E5600E2186B /* MainStoryboard_iPad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +89,7 @@
 		6A64AAF21526050D0065BF86 /* PTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTAppDelegate.h; sourceTree = "<group>"; };
 		6A64AAF31526050D0065BF86 /* PTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTAppDelegate.m; sourceTree = "<group>"; };
 		6A64AAF61526050D0065BF86 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6A64AAF91526050D0065BF86 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		6A64AAFB1526050D0065BF86 /* PTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTViewController.h; sourceTree = "<group>"; };
 		6A64AAFC1526050D0065BF86 /* PTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTViewController.m; sourceTree = "<group>"; };
 		6A64AB01152608C80065BF86 /* PTExampleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTExampleProtocol.h; sourceTree = "<group>"; };
@@ -113,7 +114,6 @@
 		9625F13417D45F150049B459 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		966F23271786FE3F00EE746B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		966F232917870ABE00EE746B /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
-		9671718017D47E5600E2186B /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,7 @@
 				6A64AAFB1526050D0065BF86 /* PTViewController.h */,
 				6A64AAFC1526050D0065BF86 /* PTViewController.m */,
 				6A64AAF51526050D0065BF86 /* MainStoryboard_iPhone.storyboard */,
-				9671718017D47E5600E2186B /* MainStoryboard_iPad.storyboard */,
+				6A64AAF81526050D0065BF86 /* MainStoryboard_iPad.storyboard */,
 				6A64AAEA1526050D0065BF86 /* Supporting Files */,
 			);
 			path = "Peertalk iOS Example";
@@ -430,6 +430,7 @@
 			files = (
 				6A64AAEE1526050D0065BF86 /* InfoPlist.strings in Resources */,
 				6A64AAF71526050D0065BF86 /* MainStoryboard_iPhone.storyboard in Resources */,
+				6A64AAFA1526050D0065BF86 /* MainStoryboard_iPad.storyboard in Resources */,
 				6A2E8E371527451D001B90E4 /* Icon-144@2x.png in Resources */,
 				6A2E8E39152745EF001B90E4 /* Icon-72.png in Resources */,
 				6A2E8E3B1527467E001B90E4 /* Icon-114@2x.png in Resources */,
@@ -441,7 +442,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A88FA50150D613800FC3647 /* InfoPlist.strings in Resources */,
-				9671718117D47E5600E2186B /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +559,14 @@
 			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
+		6A64AAF81526050D0065BF86 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A64AAF91526050D0065BF86 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
 		6A88FA4E150D613800FC3647 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -604,7 +612,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Peertalk iOS Example/Peertalk iOS Example-Prefix.pch";
 				INFOPLIST_FILE = "Peertalk iOS Example/Peertalk iOS Example-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -624,7 +632,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Peertalk iOS Example/Peertalk iOS Example-Prefix.pch";
 				INFOPLIST_FILE = "Peertalk iOS Example/Peertalk iOS Example-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
