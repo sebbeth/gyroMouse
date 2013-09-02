@@ -246,7 +246,7 @@
       //                   CGButtonCount  buttonCount,
       //                   boolean_t      mouseButtonDown, ... )
       //
-
+      
       CGPostMouseEvent(cursorPosition,1,2,leftButtonDown, rightButtonDown);
 
       
