@@ -77,14 +77,20 @@
 }
 
 - (IBAction)leftButton:(id)sender {
-    messageToSend = @"left";
+    messageToSend = @"leftDown";
     [self sendMessage];
 }
 
 - (IBAction)rightButton:(id)sender {
-    messageToSend = @"right";
+    messageToSend = @"rightDown";
     [self sendMessage];
 }
+
+//messageToSend = @"leftUp";
+// [self sendMessage];
+
+//messageToSend = @"rightUp";
+// [self sendMessage];
 
 - (void)appendOutputMessage:(NSString*)message {
   NSLog(@">> %@", message);
