@@ -72,8 +72,6 @@
 		6A2E8E3C152749E0001B90E4 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		6A2E8E3E15274F8E001B90E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6A4010D515275E3800EF0E92 /* prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
-		6A4010D615275E5400EF0E92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		6A4010D815275E9600EF0E92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		6A64AAC6152604D40065BF86 /* Gyro mouse server.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gyro mouse server.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A64AACB152604D40065BF86 /* Peertalk Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Peertalk Example-Info.plist"; sourceTree = "<group>"; };
 		6A64AACD152604D40065BF86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -245,8 +243,6 @@
 		6A88FA32150D613800FC3647 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A4010D815275E9600EF0E92 /* CoreGraphics.framework */,
-				6A4010D615275E5400EF0E92 /* UIKit.framework */,
 				966F23271786FE3F00EE746B /* CoreMotion.framework */,
 				6A2E8E3E15274F8E001B90E4 /* QuartzCore.framework */,
 				6A88FA33150D613800FC3647 /* Cocoa.framework */,
