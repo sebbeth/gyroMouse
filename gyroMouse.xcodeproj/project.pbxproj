@@ -12,8 +12,6 @@
 		6A2E8E3B1527467E001B90E4 /* Icon-114@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2E8E3A1527467E001B90E4 /* Icon-114@2x.png */; };
 		6A2E8E3D152749E0001B90E4 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6A2E8E3C152749E0001B90E4 /* Icon.icns */; };
 		6A2E8E3F15274F8E001B90E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2E8E3E15274F8E001B90E4 /* QuartzCore.framework */; };
-		6A4010D715275E5400EF0E92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4010D615275E5400EF0E92 /* UIKit.framework */; };
-		6A4010D915275E9600EF0E92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4010D815275E9600EF0E92 /* CoreGraphics.framework */; };
 		6A64AAC8152604D40065BF86 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A88FA33150D613800FC3647 /* Cocoa.framework */; };
 		6A64AACE152604D40065BF86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A64AACC152604D40065BF86 /* InfoPlist.strings */; };
 		6A64AAD0152604D40065BF86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A64AACF152604D40065BF86 /* main.m */; };
@@ -42,6 +40,8 @@
 		6A88FA63150D61DE00FC3647 /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A88FA5F150D61DE00FC3647 /* PTUSBHub.m */; };
 		6ACFD2D6151D36220081ACF5 /* PTChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACFD2D4151D36220081ACF5 /* PTChannel.h */; };
 		6ACFD2D7151D36220081ACF5 /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFD2D5151D36220081ACF5 /* PTChannel.m */; };
+		9625F13317D45F090049B459 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9625F13217D45F090049B459 /* CoreGraphics.framework */; };
+		9625F13517D45F150049B459 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9625F13417D45F150049B459 /* UIKit.framework */; };
 		966F23281786FE3F00EE746B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966F23271786FE3F00EE746B /* CoreMotion.framework */; };
 		966F232A17870ABE00EE746B /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966F232917870ABE00EE746B /* ApplicationServices.framework */; };
 /* End PBXBuildFile section */
@@ -74,7 +74,7 @@
 		6A4010D515275E3800EF0E92 /* prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
 		6A4010D615275E5400EF0E92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		6A4010D815275E9600EF0E92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		6A64AAC6152604D40065BF86 /* Peertalk Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Peertalk Example.app"; path = "Gyro mouse server.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A64AAC6152604D40065BF86 /* Gyro mouse server.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gyro mouse server.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A64AACB152604D40065BF86 /* Peertalk Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Peertalk Example-Info.plist"; sourceTree = "<group>"; };
 		6A64AACD152604D40065BF86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A64AACF152604D40065BF86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -112,6 +112,8 @@
 		6A88FA5F150D61DE00FC3647 /* PTUSBHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTUSBHub.m; sourceTree = "<group>"; };
 		6ACFD2D4151D36220081ACF5 /* PTChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTChannel.h; sourceTree = "<group>"; };
 		6ACFD2D5151D36220081ACF5 /* PTChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTChannel.m; sourceTree = "<group>"; };
+		9625F13217D45F090049B459 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		9625F13417D45F150049B459 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		966F23271786FE3F00EE746B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		966F232917870ABE00EE746B /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -132,9 +134,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9625F13517D45F150049B459 /* UIKit.framework in Frameworks */,
+				9625F13317D45F090049B459 /* CoreGraphics.framework in Frameworks */,
 				966F23281786FE3F00EE746B /* CoreMotion.framework in Frameworks */,
-				6A4010D915275E9600EF0E92 /* CoreGraphics.framework in Frameworks */,
-				6A4010D715275E5400EF0E92 /* UIKit.framework in Frameworks */,
 				6A64AAE61526050D0065BF86 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +219,8 @@
 		6A88FA25150D613800FC3647 = {
 			isa = PBXGroup;
 			children = (
+				9625F13417D45F150049B459 /* UIKit.framework */,
+				9625F13217D45F090049B459 /* CoreGraphics.framework */,
 				966F232917870ABE00EE746B /* ApplicationServices.framework */,
 				6A88FA39150D613800FC3647 /* peertalk */,
 				6A88FA4B150D613800FC3647 /* tests */,
@@ -232,7 +236,7 @@
 			children = (
 				6A88FA30150D613800FC3647 /* libgyroMouse.a */,
 				6A88FA44150D613800FC3647 /* gyroMouseTests.octest */,
-				6A64AAC6152604D40065BF86 /* Peertalk Example.app */,
+				6A64AAC6152604D40065BF86 /* Gyro mouse server.app */,
 				6A64AAE21526050D0065BF86 /* Gyro mouse.app */,
 			);
 			name = Products;
@@ -328,7 +332,7 @@
 			);
 			name = "Gyro mouse server";
 			productName = "Peertalk Example";
-			productReference = 6A64AAC6152604D40065BF86 /* Peertalk Example.app */;
+			productReference = 6A64AAC6152604D40065BF86 /* Gyro mouse server.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6A64AAE11526050D0065BF86 /* Gyro mouse */ = {
