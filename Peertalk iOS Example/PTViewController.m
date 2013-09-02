@@ -76,21 +76,38 @@
   }
 }
 
-- (IBAction)leftButton:(id)sender {
+- (IBAction)leftTouchDown:(id)sender {
     messageToSend = @"leftDown";
     [self sendMessage];
 }
 
-- (IBAction)rightButton:(id)sender {
+- (IBAction)rightTouchDown:(id)sender {
     messageToSend = @"rightDown";
     [self sendMessage];
 }
 
-//messageToSend = @"leftUp";
-// [self sendMessage];
+- (IBAction)leftTouchUpInside:(id)sender {
+    messageToSend = @"leftUp";
+     [self sendMessage];
+}
 
-//messageToSend = @"rightUp";
-// [self sendMessage];
+- (IBAction)rightTouchUpInside:(id)sender {
+    messageToSend = @"rightUp";
+     [self sendMessage];
+}
+
+
+- (IBAction)leftButton:(id)sender {
+ 
+}
+
+- (IBAction)rightButton:(id)sender {
+
+}
+
+
+
+
 
 - (void)appendOutputMessage:(NSString*)message {
   NSLog(@">> %@", message);

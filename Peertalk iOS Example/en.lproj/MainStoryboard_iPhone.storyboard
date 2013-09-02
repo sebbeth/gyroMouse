@@ -24,7 +24,8 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="leftButton:" destination="2" eventType="touchUpInside" id="SJE-t1-hJ2"/>
+                                    <action selector="leftTouchDown:" destination="2" eventType="touchDown" id="HuR-Ag-4wf"/>
+                                    <action selector="leftTouchUpInside:" destination="2" eventType="touchUpInside" id="p5Y-5v-QFT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hPi-tW-uZ2">
@@ -39,7 +40,8 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="rightButton:" destination="2" eventType="touchUpInside" id="ZDw-Bt-kOX"/>
+                                    <action selector="rightTouchDown:" destination="2" eventType="touchDown" id="Mm1-nM-AM7"/>
+                                    <action selector="rightTouchUpInside:" destination="2" eventType="touchUpInside" id="KR3-93-sK3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -51,6 +53,21 @@
             </objects>
         </scene>
     </scenes>
+    <classes>
+        <class className="PTViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PTViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="leftButton:"/>
+                <relationship kind="action" name="leftTouchDown:"/>
+                <relationship kind="action" name="leftTouchUpInside:"/>
+                <relationship kind="action" name="rightButton:"/>
+                <relationship kind="action" name="rightTouchDown:"/>
+                <relationship kind="action" name="rightTouchUpInside:"/>
+                <relationship kind="outlet" name="inputTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="outputTextView" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

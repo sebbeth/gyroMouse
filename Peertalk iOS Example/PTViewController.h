@@ -14,7 +14,10 @@
 @property (weak) IBOutlet UITextField *inputTextField;
 
 - (void)sendMessage:(NSString*)message;
-- (IBAction)leftButton:(id)sender;
-- (IBAction)rightButton:(id)sender;
+- (IBAction)leftTouchDown:(id)sender;
+- (IBAction)rightTouchDown:(id)sender;
+- (IBAction)leftTouchUpInside:(id)sender;
+- (IBAction)rightTouchUpInside:(id)sender;
+
 
 @end
