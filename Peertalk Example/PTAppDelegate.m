@@ -223,11 +223,17 @@
       // mouse stuff
       ourEvent = CGEventCreate(NULL);
       MousePoint = CGEventGetLocation(ourEvent);
-      if ([message isEqualToString:@"left"]) {
-          NSLog(@"L!");
+      if ([message isEqualToString:@"leftDown"]) {
+          NSLog(@"left mouse down!");
           leftButtonDown = YES;
-      } else if ([message isEqualToString:@"right"]) {
-          NSLog(@"R!");
+      } else if ([message isEqualToString:@"rightDown"]) {
+          NSLog(@"right mouse down!");
+          rightButtonDown = NO;
+      } else if ([message isEqualToString:@"leftUp"]) {
+          NSLog(@"left mouse up!");
+          leftButtonDown = NO;
+      } else if ([message isEqualToString:@"rightUp"]) {
+          NSLog(@"right mouse up!");
           rightButtonDown = YES;
       } else if ([[message substringToIndex:1] isEqualToString:@"X"]) {
           
@@ -242,8 +248,7 @@
       //
 
       CGPostMouseEvent(cursorPosition,1,2,leftButtonDown, rightButtonDown);
-      leftButtonDown = NO;
-      rightButtonDown = NO;
+
       
       
       
